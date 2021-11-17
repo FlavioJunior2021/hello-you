@@ -1,0 +1,24 @@
+.button-Submit{
+    
+     cursor: pointer;
+     border: none;
+     background-color: #FB8B47;
+     border-radius: 3px;
+     width: 10%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 12px;
+      
+     transition: filter 0.2s;
+
+     >img{
+         width: 36px;
+         height: 36px;
+         padding: 5px;
+     }
+ 
+     &:hover{
+         filter: brightness(0.9);
+     }
+}

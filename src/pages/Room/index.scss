@@ -1,0 +1,108 @@
+#chat-Room{
+    header{
+        padding: 24px;
+        border: 1px solid #e2e2e2;
+    
+        .content{
+          max-width: 1120px;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+    
+          >img{
+            max-height: 45px;
+          }
+          >div{
+            display: flex;
+            gap: 16px;
+    
+            button{
+              height: 40px;
+            }
+          }
+        }
+      }
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+
+    .chat-tittle{
+        margin: 32px 0 24px;
+        display: flex;
+        align-items: center;
+
+        h1{
+            font-family: 'Poppins', sans-serif;
+            font-size: 24px;
+        }
+        span{
+            margin-left: 16px;
+            background-color: #FB8B47;
+            border-radius: 9999px;
+            padding: 8px 16px;
+            color: #fff;
+            font-weight: 500;
+            font-size: 14px;
+        }
+    }
+    form{
+
+        display: flex;
+        flex-direction: column;
+
+        textarea{
+            width: 100%;
+            border: 0;
+            padding: 16px;
+            border-radius: 8px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+            resize: vertical;
+            min-height: 130px;
+            font-family: 'Roboto', sans-serif;
+            
+        }
+    }
+    .form-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 16px;
+
+        span{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+
+            button{
+                font-family: 'Poppins', sans-serif;
+                background: transparent;
+                border: 0;
+                text-decoration: underline;
+                font-size: 14px;
+                font-weight: 500;
+                cursor: pointer;
+                color: #FB8B47;
+            }
+        }
+        .user-information{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            img {
+                width: 42px;
+                height: 42px;
+                border-radius: 50%;
+            }
+
+            span {
+                margin-left: 8px;
+                color: #29292e;
+                font-weight: 500;
+                font-size: 16px;
+            }
+        }
+    }
+}
